@@ -1,0 +1,17 @@
+   45  git clone https://github.com/VT-vision-lab/VQA.git
+   74  git clone https://github.com/ultrons/VQA.git
+   81  git clone https://github.com/VT-vision-lab/VQA_LSTM_CNN.git
+   83  git clone https://github.com/akirafukui/vqa-mcb.git
+  108  git clone https://github.com/pdollar/coco.git
+  110  git clone https://github.com/yunjey/show-attend-and-tell.git
+  195  git clone https://github.com/ultrons/dmn-tensorflow.git
+  208  git clone https://github.com/ultrons/visual_question_answering.git
+  221  git status
+  223  git add feature_extractor
+  224  git add dataset/download_vqa_2.0.sh 
+  227  git status
+  230  git commit -m "First draft of data download script" dataset/download_vqa_2.0.sh 
+  231  git commit -m "VGG19 Network Definition" feature_extractor/vggnet.py
+  232  git push
+  244  history | grep git 
+  245  history | grep git  > cmds
